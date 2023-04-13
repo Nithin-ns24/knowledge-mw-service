@@ -1,4 +1,4 @@
-FROM circleci/node:8.11.2-stretch
+FROM circleci/node:19.9.0-stretch
 MAINTAINER "Manojvv" "manojv@ilimi.in"
 USER root
 COPY src /opt/content/
